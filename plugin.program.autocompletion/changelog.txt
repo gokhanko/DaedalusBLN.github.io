@@ -1,0 +1,11 @@
+1.0.2 (Fork)
+
+- Fix crashes on Kodi Leia (Credits for fixes go to to xulek and domb84)
+
+1.0.1
+
+- cleanup, take over some listitem work from AutoCompletion lib
+
+1.0.0
+
+- Initial release
