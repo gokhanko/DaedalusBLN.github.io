@@ -6,8 +6,10 @@ script:
   - python ./_repo_xml_generator.py
   - cd leia
   - python ./_repo_xml_generator.py
+  - cd ..
   - cd matrix
   - python ./_repo_xml_generator.py
+  - cd ..
   
 after_success: |
   if [ -n "$GH_TOKEN" ]; then
