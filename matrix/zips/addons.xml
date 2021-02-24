@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.daedalusbln" name="DaedalusBLN Repository" version="1.0.2" provider-name="DaedalusBLN">
+  <extension point="xbmc.addon.repository" name="DaedalusBLN Repository">
+    <dir minversion="18.0" maxversion="18.9.0">
+      <info compressed="false">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/</datadir>
+    </dir>
+    <dir minversion="18.9.0">
+      <info compressed="false">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DaedalusBLN Repository</summary>
+    <description>What the fork?</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+  </extension>
+</addon>
+
+<addon id="resource.images.moviegenreicons.transparent" name="Movie Genre Icons - Transparent" version="9.9.9" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Transparent Movie Genre Icons</summary>
+		<description lang="en">Movie Genre Icons with a transparent background</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65), xulek, domb84">
+    <requires>
+        <import addon="script.module.autocompletion" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py"/>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <!--            <fanart>resources/fanart.jpg</fanart>-->
+            <!--            <screenshot>resources/screenshot-01.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-02.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-03.jpg</screenshot>-->
+        </assets>
+    </extension>
+</addon>
+</addons>
